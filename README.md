@@ -72,8 +72,6 @@ curl -u username --silent "https://mail.google.com/mail/feed/atom" | perl -ne 'p
 ssh -t reachable_host ssh unreachable_host
 # Display the top ten running processes - sorted by memory usage
 ps aux | sort -nk +4 | tail
-# Reboot machine when everything is hanging
-<alt> + <print screen/sys rq> + <R> - <S> - <E> - <I> - <U> - <B>
 # Simulate typing
 echo "You can simulate on-screen typing just like in the movies" | pv -qL 10
 # Watch Star Wars via telnet
